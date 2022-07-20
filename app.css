@@ -1,0 +1,22 @@
+.underConstruction {
+    width: 90%;
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    /* ^^ centers div horizontally */
+    text-align: center;
+    border: 0.25em solid;
+    border-image: linear-gradient(to right, rgb(235, 240, 81), rgb(82, 96, 129)) 100% 0 100% 0;
+}
+
+body {
+    background: rgb(184, 184, 184);
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(60, 60, 60);
+    font-size: 3.75vw;
+    /* responsive */
+}
